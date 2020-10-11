@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body
+{
+  font-family: verdana;
+  padding: 0;
+}
+.topbar
+{
+	text-align: center;
+}
+.contact-icon
+{
+	float: left;
+	padding: 10px 18px;
+	color: #2C3E50;
+	text-decoration: none;
+	font-size: 20px;
+}
+.icon
+{
+	float: right;
+	padding: 10px 18px;
+	color: #2C3E50;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navigation
+{
+	margin-top: 20px;
+}
+.homebg
+{
+	
+	background-image: url(dandelion.jpg);
+	height: 600px;
+	width: 100%;]
+	background-position: center;
+	text-align: center;
+}
+
+.cih
+{
+	font-size: 100px;
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+}
+@media only screen and (max-width: 600px) {
+  .cih {font-size: 40px; padding: 8px 10px;}
+}
+.tagline
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .tagline {font-size: 14px; padding-left: 50px; padding-right: 50px;}
+}
+.appointment
+{
+	text-align: center;
+	color: #fff;
+	background-color: darkgreen;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border-style: none;
+}
+.text-center
+{
+	padding: 30px;
+	color: #2C3E50;
+	background-color: none;
+}
+.col-sm-4
+{
+	text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+ .col-sm-4:hover
+ {
+ 	 background-color: #2C3E50;
+ 	 color: #fff;
+ }
+ .fa-birthday-cake
+ {
+ 	background-color: #F92D49;
+ 	color: #fff;
+ 	padding: 10px 10px;
+ 	border-radius: 50%;
+ }
+  .fa-heart
+ {
+ 	background-color: #F92D49;
+ 	color: #fff;
+ 	padding: 10px 10px;
+ 	border-radius: 50%;
+ }
+  .fa-handshake-o
+ {
+ 	background-color: #F92D49;
+ 	color: #fff;
+ 	padding: 10px 10px;
+ 	border-radius: 50%;
+ }
+ .about-us
+ {
+ 	padding: 20px;
+ }
+.about-us h3
+{
+	padding: 30px;
+	color: #2C3E50;
+	text-align: center;
+}
+.container
+{
+	background-color: none;
+}
+ .contact-us
+ {
+ 	padding: 20px;
+ }
+.contact-us h3
+{
+	padding: 30px;
+	color: #2C3E50;
+	text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fff;
+  color: #2C3E50;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: none;
+}
+.footer {
+padding: 20px;
+text-align: center;
+color: #fff;
+background-color: #2C3E50;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.nav-item:hover .dropdown-content {display: block;}
+
+.nav-item:hover .dropbtn {background-color: #3e8e41;}
+
+.button
+{
+	text-decoration: none;
+	padding: 4px 30px;
+	color: #fff;
+	background-color: #F92D49;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 20px;
+}
